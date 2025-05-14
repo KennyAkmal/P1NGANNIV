@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Paralax Bintang dan Awan (Symmetrical)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="parallax-container">
+        <!-- Background -->
+        <div class="night-sky"></div>
+        <div class="stars"></div>
+        
+        <!-- Judul -->
+        <div class="main-title">The memories</div>
+        
+        <!-- Bintang-bintang Baris 1 -->
+        <div class="stars-container">
+            <div class="main-star star-1 special-star debut-star">
+                <div class="star-text text-1">Debut</div>
+            </div>
+            
+            <div class="main-star star-2">
+                <div class="star-text text-2">First Album</div>
+            </div>
+            
+            <div class="main-star star-3">
+                <div class="star-text text-3">First Concert</div>
+            </div>
+            
+            <div class="main-star star-4">
+                <div class="star-text text-4">First Merch</div>
+            </div>
+        </div>
+        <!-- Bintang-bintang Baris 2 -->
+        <div class="stars-container-row2">
+            <div class="main-star star-5">
+                <div class="star-text text-5">First Award</div>
+            </div>
+            
+            <div class="main-star star-6">
+                <div class="star-text text-6">World Tour</div>
+            </div>
+            
+            <div class="main-star star-7 special-star anniversary-star">
+                <div class="star-text text-7">Anniversary</div>
+            </div>
+        </div>
+        
+        <!-- Container untuk awan tetap ada di atas bulan -->
+        <!-- Container untuk awan tetap ada di atas bulan -->
+        <div class="clouds-container">
+            <div class="cloud cloud-2 cloud-left"></div>
+            <div class="cloud cloud-3 cloud-right"></div>
+        </div>
+    </div>
+
+    <!-- Bagian Konten - Timeline -->
+    <section class="content-section">
+        <!-- Bulan bagian bawah di section 2 - lebih besar dan z-index diubah -->
+        <div class="moon-bottom">
+            <img src="assets/bulan.png" alt="Bulan" width="100%" height="100%">
+        </div>
+        <div class="timeline">
+            <h2 class="section-title" style="color:black;">Our Journey to the Stars</h2>
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <h3>Debut</h3>
+                    <p>Langkah pertama kami ke dunia baru. Hari bersejarah dimana semua berawal dan impian mulai terbentuk.</p>
+                </div>
+            </div>
+            
+            <div class="timeline-item right">
+                <div class="timeline-content">
+                    <h3>???</h3>
+                    <p>Album perdana yang menandai kehadiran kami di industri musik. Penuh dengan semangat dan kreativitas baru.</p>
+                </div>
+            </div>
+            
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <h3>???</h3>
+                    <p>Pertunjukan pertama di depan penggemar setia. Momen penuh emosi dan kebahagiaan yang tak terlupakan.</p>
+                </div>
+            </div>
+            
+            <div class="timeline-item right">
+                <div class="timeline-content">
+                    <h3>First Merch</h3>
+                    <p>Peluncuran merchandise pertama kami. Cara baru untuk terhubung dengan penggemar dan berbagi kenangan.</p>
+                </div>
+            </div>
+            
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <h3>???</h3>
+                    <p>Penghargaan pertama yang kami terima. Bukti kerja keras dan dedikasi selama perjalanan ini.</p>
+                </div>
+            </div>
+            
+            <div class="timeline-item right">
+                <div class="timeline-content">
+                    <h3>World Tour</h3>
+                    <p>Tur keliling dunia pertama kami. Bertemu penggemar dari berbagai negara dan budaya.</p>
+                </div>
+            </div>
+            
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <h3>Anniversary</h3>
+                    <p>Perayaan satu tahun perjalanan kami. Melihat kembali pencapaian dan merencanakan masa depan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 The Memories - Semua kenangan bersama kami</p>
+    </footer>
+    <div class="star-card-container" id="starCardContainer">
+    <div class="star-card">
+        <div class="card-header">
+            <h3 id="cardTitle">Judul Card</h3>
+            <button class="close-btn" id="closeCard">&times;</button>
+        </div>
+        <div class="card-content">
+            <div class="card-image">
+                <img id="cardImage" src="assets/placeholder.png" alt="Star Image">
+            </div>
+            <div class="card-text">
+                <p id="cardDescription">Deskripsi tentang bintang akan muncul di sini. Informasi lebih detail tentang momen penting ini.</p>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
